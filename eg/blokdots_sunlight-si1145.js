@@ -10,9 +10,9 @@ board.on("ready", () => {
 
   sunlight.on("change", () => {
     console.log("Sunlight:");
-    console.log("IR: ", sunlight.ir);
-    console.log("UV: ", sunlight.uv);
-    console.log("Ambient: ", sunlight.ambient);
-    console.log("--------------------------------------");
+    console.log("IR:  ", sunlight.ir);
+    console.log("UV:  ", sunlight.uv);
+    console.log("VIS: ", sunlight.vis);
+    console.log("---------------------------");
   });
 });
