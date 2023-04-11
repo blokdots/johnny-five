@@ -159,7 +159,7 @@
   },
   "optionalDependencies": {
     "browser-serialport": "latest",
-    "firmata": "git://github.com/blokdots/firmata.js.git",
+    "firmata": "https://github.com/blokdots/firmata.js.git",
     "serialport": "^10.5.0"
   },
   "devDependencies": {
