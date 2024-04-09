@@ -4,6 +4,8 @@ const board = new Board();
 board.on("ready", () => {
   const color_sens = new ColorSensor({
     controller: "TCS3472",
+    gain: 16, // default 16
+    integrationTime: 700, // default 700
   });
 
   console.log("Color Sensor is running 🎨");
